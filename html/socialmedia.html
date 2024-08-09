@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Registration</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #005582;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Join LinkedIn</h1>
+        <p>Connect with professionals and advance your career. Sign up today!</p>
+        
+        <form id="registration-form" action="/submit-registration" method="POST">
+            <fieldset>
+                <legend>Account Information</legend>
+                
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Professional Details</legend>
+                
+                <label for="headline">Headline:</label>
+                <input type="text" id="headline" name="headline" placeholder="e.g., Software Engineer at XYZ" required>
+                
+                <label for="industry">Industry:</label>
+                <select id="industry" name="industry" required>
+                    <option value="">-- Select Industry --</option>
+                    <option value="technology">Technology</option>
+                    <option value="finance">Finance</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="education">Education</option>
+                    <!-- Add more industries as needed -->
+                </select>
+                
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="City, Country" required>
+                
+                <label for="linkedin-profile">LinkedIn Profile URL (Optional):</label>
+                <input type="url" id="linkedin-profile" name="linkedin-profile" placeholder="https://www.linkedin.com/in/your-profile">
+            </fieldset>
+
+            <fieldset>
+                <legend>Privacy Settings</legend>
+                
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Subscribe to LinkedIn's newsletter
+                </label>
+                
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to LinkedIn's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Submit</legend>
+                <button type="submit">Sign Up</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
