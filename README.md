@@ -55,9 +55,25 @@ Browse other pages for more info.
 💼 LinkedIn Post Caption Suggestion
 🚀 Just built a responsive Weather Dashboard using HTML, CSS, and JS! 🌦️ Users can check real-time weather, 5-day forecasts, and more. Proud to share this as part of my frontend journey. Would love your feedback! 🔗 [Live Demo] #WeatherApp #WebDevelopment #JavaScript #OpenWeatherMapAPI
 
-![Screenshot 2025-06-02 210942](https://github.com/user-attachments/assets/5cbfd7ea-ca44-4592-91be-37ee94771151)
 
 
 
-![Dashboard Screenshot](C:\Users\yugan\OneDrive\Pictures\Screenshots\Screenshot 2025-06-02 211015.png)
+![Screenshot 2025-06-02 210855](https://github.com/user-attachments/assets/b1861fee-62a9-4c35-9ccf-122dd008b027)
+
+
+![Screenshot 2025-06-02 210927](https://github.com/user-attachments/assets/2595b574-41cc-4766-8ee6-01a32109d841)
+
+
+![Screenshot 2025-06-02 210942](https://github.com/user-attachments/assets/a8672fcd-067f-4d97-9275-53e2732e3c24)
+
+
+![Screenshot 2025-06-02 210907](https://github.com/user-attachments/assets/3b014ec6-ef76-43d9-a6dc-076c1c5abce9)
+
+
+![Screenshot 2025-06-02 211015](https://github.com/user-attachments/assets/a6f76822-5bd8-4f24-8f32-4c1bac20c8ed)
+
+
+
+
+
 
