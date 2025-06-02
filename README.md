@@ -1,6 +1,8 @@
 🌦️ Weather Dashboard
 A responsive and interactive Weather Dashboard web app that provides real-time weather information, including temperature, humidity, wind speed, and 5-day forecasts for any city. Built using HTML, CSS, JavaScript, and APIs like OpenWeatherMap for dynamic weather data.
 
+
+
 🔧 Features
 🌍 Search for any city’s current weather
 
@@ -14,8 +16,11 @@ A responsive and interactive Weather Dashboard web app that provides real-time w
 
 🧊 Clean UI with intuitive design
 
+
+
+
 🛠️ Tech Stack
-HTML5, CSS3, JavaScript (Vanilla JS)
+HTML5, CSS3, JavaScript 
 
 OpenWeatherMap API
 
@@ -26,7 +31,7 @@ Bootstrap
 
 
 📁 Pages Included
-Home (live weather)
+Home 
 
 5-Day Forecast
 
@@ -35,6 +40,8 @@ Previous Weather Alerts
 About
 
 Contact
+
+
 
 🚀 How to Use
 Enter a city name in the search box.
