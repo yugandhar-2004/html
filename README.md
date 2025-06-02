@@ -58,5 +58,5 @@ Browse other pages for more info.
 
 
 
-![Dashboard Screenshot]("C:\Users\yugan\OneDrive\Pictures\Screenshots\Screenshot 2025-06-02 211015.png")
+![Dashboard Screenshot](C:\Users\yugan\OneDrive\Pictures\Screenshots\Screenshot 2025-06-02 211015.png)
 
