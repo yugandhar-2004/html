@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-Day Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>.kranthi{
+    color: aliceblue;}</style>
+</head>
+<body background="lightning-sky-thunder-city-wallpaper-preview.jpg">
+    <nav class="a">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">current weather</a></li>
+            <li><a href="map.html">basic weather map</a></li>
+            <li><a href="forecast.html">5-Day Forecast</a></li>
+            <li><a href="previous-cautions.html">air-pollution-info</a></li>
+            <li><a href="geocoding.html">Geocoding</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="forecast">
+        <h1 class="kranthi">5-Day Weather Forecast</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="searchBtn">Search</button>
+
+        <div id="forecastContainer">
+            <!-- Forecast details will be displayed here -->
+        </div>
+    </div>
+
+    <script src="forecast.js"></script>
+</body>
+</html>
